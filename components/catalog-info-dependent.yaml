@@ -1,12 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: yournamehere-service-dependency
+  name: ah-catalog-dependent
   description: |
-    My Example service which has something to do with APIs and database.
+    My new dependent service for ah catalog
   links:
-    - title: Website
-      url: http://harness.io
+    - title: Ashley Website
+      url: https://screwmyprivacy.com
+    - title: Ashley 2
+      url: https://github.com/asheliahut
   annotations:
     github.com/project-slug: harnessworkshop/idp-workshop
     backstage.io/techdocs-ref: dir:../
@@ -37,7 +39,7 @@ metadata:
     #jira/project-key: IDP
     ## Jira plugin - End
   tags:
-    - yournamehere
+    - ahutson
 spec:
   type: service
   owner: change-value
@@ -46,6 +48,6 @@ spec:
     - spotify
   providesApis:
     - petstore
-#  dependsOn:
-#    - component:default/yournamehere-service
+ dependsOn:
+   - component:default/ah-catalog
 #  system: yournamehere-system
