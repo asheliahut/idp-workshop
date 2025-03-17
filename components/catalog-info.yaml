@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: yournamehere-service
+  name: ah-catalog
   description: |
-    My Example service which has something to do with APIs and database.
+    My service for ah catalog
   links:
     - title: Website
       url: http://harness.io
@@ -37,7 +37,7 @@ metadata:
     #jira/project-key: IDP
     ## Jira plugin - End
   tags:
-    - yournamehere
+    - ahutson
 spec:
   type: service
   owner: change-value
