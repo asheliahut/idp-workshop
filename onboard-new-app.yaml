@@ -2,9 +2,9 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 # some metadata about the template itself
 metadata:
-  name: Workflows-Quickstart
-  title: Provision a New Application Pattern
-  description: Creates a new GitHub repository according to standardized application patterns
+  name: AH-Workflow-Scaffolder
+  title: AH Workflow Scaffolder
+  description: Creates a new GitHub repository according to AH standards
 spec:
   owner: TeamA
   type: service
